@@ -15,7 +15,7 @@
 
   --tridactyl-fg: var(--fg);
   --tridactyl-bg: var(--bg);
-  --tridactyl-url-fg: var(--pink);
+  --tridactyl-url-fg: var(--orange);
   --tridactyl-url-bg: var(--bg);
   --tridactyl-highlight-box-bg: var(--currentline);
   --tridactyl-highlight-box-fg: var(--fg);
@@ -28,7 +28,7 @@
 
   /* Hint character tags */
   --tridactyl-hintspan-fg: var(--bg) !important;
-  --tridactyl-hintspan-bg: var(--green) !important;
+  --tridactyl-hintspan-bg: var(--orange) !important;
 
   /* Element Highlights */
   --tridactyl-hint-active-fg: none;
@@ -159,11 +159,11 @@
 }
 
 #completions .focused {
-  background: var(--pink);
+  background: var(--orange);
   color: var(--bg);
 }
 
 #completions .focused .url {
-  background: var(--pink);
+  background: var(--orange);
   color: var(--bg);
 }
